@@ -1,0 +1,30 @@
+ll
+ll repogit/
+ls -l .ssh/
+ssh-keygen -t ed25519
+ls -l .ssh/
+tar -cvzf ssh_backup.tgz .ssh
+mv ssh_backup.tgz repogit/
+ll
+pwd
+ll
+ls -l
+cd repogit/
+ls -l
+cd
+pwd
+tar -xvzf ssh_backup.tgz 
+cd repogit/
+tar -xvzf ssh_backup.tgz 
+ls -la
+ls -l .ssh/
+cat .ssh/id_ed25519.pub 
+git clone git@github.com:FacuIbrra1/UTNFRA_SO_1P2C_2024_IbarraQuiroz.git
+ll
+git clone htts://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+ll
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+source  ~/.bashrc  && history -a
+ls -l UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+ls -l UTNFRA_SO_1P2C_2024_IbarraQuiroz/RTA_SCRIPT_Examen_20241011/
