@@ -1,0 +1,312 @@
+    1  cd repogit/
+    2  ll
+    3  cat .ssh/id_ed25519.pub 
+    4  git clone git@github.com:FacuIbrra1/UTNFRA_SO_1P2C_2024_IbarraQuiroz.git
+    5  ll
+    6  cd UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+    7  ll
+    8  RTA_SCRIPT_Examen_20241011/
+    9  cd RTA_SCRIPT_Examen_20241011/
+   10  ll
+   11  cat Punto_C.sh 
+   12  cd ..
+   13  ll
+   14  git clone https://github.com/FacuIbrra1/UTNFRA_SO_1P2C_2024_IbarraQuiroz.git
+   15  git clone https://github.com/FacuIbrra1/UTNFRA_SO_Examenes.git
+   16  ll
+   17  git clone https://github.com/upszot/UTNFRA_SO_Examenes.git
+   18  git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+   19  ll
+   20  ./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh
+   21  source  ~/.bashrc  && history -a
+   22  ~/.bashrc  && history -a
+   23  cd UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+   24  ll
+   25  cd RTA_SCRIPT_Examen_20241011/
+   26  ll
+   27  cat Punto_C.sh 
+   28  cat /etc/passwd
+   29  cd ..
+   30  ll
+   31  git status
+   32  cd ..
+   33  tree UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+   34  sudo apt update && sudo apt install -y tree
+   35  tree UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+   36  ll
+   37  cd UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+   38  ll
+   39  RTA_SCRIPT_Examen_20241011/
+   40  cd RTA_S
+   41  cd RTA_SCRIPT_Examen_20241011/
+   42  ll
+   43  cat Punto_A.sh 
+   44  ./Punto_A.sh 
+   45  tree Punto_A.sh 
+   46  cat Punto_A.sh 
+   47  ./Punto_A.sh 
+   48  sudo rm -rf /Examenes-UTN
+   49  tree Punto_A.sh
+   50  cat Punto_A.sh 
+   51  ./Punto_A.sh 
+   52  sudo rm -rf /Examenes-UTN
+   53  cat Punto_A.sh 
+   54  ./Punto_A.sh 
+   55  sudo rm -rf /Examenes-UTN
+   56  cat Punto_A.sh 
+   57  ./Punto_A.sh 
+   58  sudo rm -rf /Examenes-UTN
+   59  cat Punto_A.sh 
+   60  ./Punto_A.sh 
+   61  sudo rm -rf /Examenes-UTN
+   62  cat Punto_A.sh 
+   63  ./Punto_A.sh 
+   64  git status
+   65  git add .
+   66  git status
+   67  git commit -m "Ejecicio A"
+   68  git status
+   69  git log
+   70  git commit -m "Ejecicio A"
+   71  git log
+   72  git push 
+   73  ll
+   74  cd ..
+   75  sudo fdisk -l
+   76  ll
+   77  cd repogit/UTNFRA_SO_1P2C_2024_IbarraQuiroz/RTA_SCRIPT_Examen_20241011/
+   78  ll
+   79  sudo fdisk -l
+   80  ll
+   81  cd ..
+   82  ll
+   83  cd RTA_SCRIPT_Examen_20241011/
+   84  ll
+   85  cd ..
+   86  ll
+   87  cd UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+   88  ll
+   89  cd RTA_SCRIPT_Examen_20241011/
+   90  ll
+   91  cat > crear_particiones.txt << EOF
+   92  n
+   93  p
+   94  1
+   95  +1G
+   96  n
+   97  p
+   98  2
+   99  +1G
+  100  n
+  101  p
+  102  3
+  103  +1G
+  104  n
+  105  e
+  106  n
+  107  +1G
+  108  n
+  109  +1G
+  110  n
+  111  +1G
+  112  n
+  113  +1G
+  114  n
+  115  +1G
+  116  n
+  117  +1G
+  118  n
+  119  +1G
+  120  w
+  121  EOF
+  122  ll
+  123  cat crear_particiones.txt 
+  124  ll
+  125  cat Punto_B.sh 
+  126  ./Punto_B.sh 
+  127  vim Punto_B.sh 
+  128  cat crear_particiones.txt 
+  129  vim crear_particiones.txt 
+  130  sudo fdisk /dev/sdc
+  131  vim crear_particiones.txt 
+  132  ./Punto_B.sh 
+  133  sudo fdisk /dev/sdc
+  134  ./Punto_B.sh 
+  135  sudo fdisk /dev/sdc
+  136  cat Punto_B.sh 
+  137  ./Punto_B.sh 
+  138  sudo lsblk -f
+  139  cat /etc/fstab
+  140  cat Punto_B.sh 
+  141  ./Punto_B.sh 
+  142  df -h
+  143  mount
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "Ejercicio B"
+  148  git push
+  149  git status
+  150  ls -l
+  151  ll
+  152  cd repogit/
+  153  ll
+  154  cd
+  155  ls -l .ssh/
+  156  ssh-keygen -t ed25519
+  157  ls -l .ssh/
+  158  tar -cvzf ssh_backup.tgz .ssh
+  159  ll
+  160  mv ssh_backup.tgz repogit/
+  161  cd repogit/
+  162  ll
+  163  pwd
+  164  tar -xvzf ssh_backup.tgz
+  165  cat .ssh/id_ed25519.pub 
+  166  history
+  167  history -a
+  168  cd repogit/
+  169  cd UTNFRA_SO_1P2C_2024_IbarraQuiroz/
+  170  cd RTA_SCRIPT_Examen_20241011/
+  171  ll
+  172  cd ..
+  173  ll
+  174  history > historial_01 
+  175  cat historial_01 
+  176  git status
+  177  git commit -a "Guardando el hitsorial"
+  178  git add .
+  179  git commit -a "Guardando el hitsorial"
+  180  git commit -m "Guardando el hitsorial"
+  181  git push
+  182  git status
+  183  cd 
+  184  cd repogit/UTNFRA_SO_1P2C_2024_IbarraQuiroz/RTA_SCRIPT_Examen_20241011/
+  185  ll
+  186  tree Punto_A.sh 
+  187  cat Punto_A.sh 
+  188  tree /Examenes-UTN/
+  189  ll
+  190  cat Punto_C.sh 
+  191  ./Punto_C.sh 
+  192  cat /etc/group
+  193  cat Punto_C.sh 
+  194  ./Punto_C.sh 
+  195  cat /etc/passwd
+  196  cat Punto_C.sh 
+  197  ./Punto_C.sh 
+  198  ls -ld /Examenes-UTN/alumno_1
+  199  cat Punto_C.sh 
+  200  ./Punto_C.sh 
+  201  ls -ld /Examenes-UTN/alumno_2
+  202  cat Punto_C.sh 
+  203  ./Punto_C.sh 
+  204  ls -ld /Examenes-UTN/alumno_2
+  205  cat Punto_C.sh 
+  206  ./Punto_C.sh 
+  207  ls -ld /Examenes-UTN/alumno_3
+  208  cat Punto_C.sh 
+  209  ./Punto_C.sh 
+  210  ls -ld /Examenes-UTN/profesores
+  211  cat Punto_C.sh 
+  212  ./Punto_C.sh 
+  213  cat /Examenes-UTN/alumno_2/validar.txt
+  214  tree /Examenes-UTN/
+  215  sudo bash -c 'whoami > /Examenes-UTN/profesores/validar.txt'
+  216  ls -ld /Examenes-UTN/profesores
+  217  cat /Examenes-UTN/profesores
+  218  cat /Examenes-UTN/profesores/validar.txt 
+  219  ls -ld /Examenes-UTN/profesores
+  220  cat Punto_C.sh 
+  221  ./Punto_C.sh 
+  222  ls -ld /Examenes-UTN/profesores
+  223  cat Punto_C.sh 
+  224  ./Punto_C.sh 
+  225  cat /Examenes-UTN/profesores/validar.txt 
+  226  git status
+  227  git add .
+  228  git commit -m "Ejecicio C"
+  229  git push
+  230  git status
+  231  ll
+  232  cat Punto_D.sh 
+  233  ./Punto_D.sh 
+  234  cat Punto_D.sh 
+  235  ./Punto_D.sh 
+  236  git status
+  237  git add .
+  238  git commit -m "Ejercicio D"
+  239  git push
+  240  git status
+  241  cat Punto_E.sh 
+  242  ./Punto_E.sh 
+  243  cd ..
+  244  ll
+  245  RTA_ARCHIVOS_Examen_20241011/
+  246  cd RTA_ARCHIVOS_Examen_20241011/
+  247  ll
+  248  cd ..
+  249  cd RTA_SCRIPT_Examen_20241011/
+  250  ll
+  251  cat Punto_E.sh 
+  252  ./Punto_E.sh 
+  253  cd ..
+  254  cd RTA_ARCHIVOS_Examen_20241011/
+  255  ll
+  256  cat Filtro_Basico.txt 
+  257  git status
+  258  cd ..
+  259  cd RTA_SCRIPT_Examen_20241011/
+  260  git status
+  261  git add .
+  262  git commit -m "Ejercicio E"
+  263  git push
+  264  git status
+  265  cd ..
+  266  RTA_ARCHIVOS_Examen_20241011/
+  267  cd RTA_ARCHIVOS_Examen_20241011/
+  268  git status
+  269  git add .
+  270  git commit -m "Archivos"
+  271  git push
+  272  git status
+  273  cd repogit/UTNFRA_SO_1P2C_2024_IbarraQuiroz/RTA_SCRIPT_Examen_20241011/
+  274  ll
+  275  cat Punto_F.sh 
+  276  ./Punto_F.sh
+  277  git status
+  278  git add .
+  279  git status
+  280  git commit -m "Ejercicio F"
+  281  git push
+  282  git status
+  283  cd ..
+  284  cd RTA_ARCHIVOS_Examen_20241011/
+  285  git status
+  286  git add .
+  287  git commit -m "Archivos"
+  288  git push
+  289  git status
+  290  cd ..
+  291  ll
+  292  cat README.md 
+  293  ./README.md 
+  294  cat README.md 
+  295  git status
+  296  git add .
+  297  git push
+  298  git status
+  299  git commit -m "README.md"
+  300  git push
+  301  git status
+  302  cat README.md 
+  303  git status
+  304  git add .
+  305  git commit -m "README.md"
+  306  git push
+  307  git status
+  308  history -a
+  309  [200~cp $HOME/.bash_history .
+  310  cp $HOME/.bash_history
+  311  ll
+  312  history > historial_02 
